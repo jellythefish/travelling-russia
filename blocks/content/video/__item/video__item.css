@@ -2,17 +2,10 @@
     position: relative;
     width: 583px;
     min-height: 323px;
-    /* height: 100%; */
     border-radius: 5px;
     color: #FFF;
     text-decoration: none;
 }
-/*
-Нужно исправить:
-Замените height на min-height
-*/
-/*пофиксил*/
-
 
 .video__item:hover .video__item-bg {
     opacity: 0.8;

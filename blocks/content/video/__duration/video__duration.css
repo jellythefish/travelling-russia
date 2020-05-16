@@ -1,0 +1,41 @@
+.video__duration {
+    position: relative;
+    margin: 94px 0 0 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1184px) {
+    .video__duration {
+        margin: 5 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__duration {
+        margin: 11.611290% 0 0 30px;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    .video__duration_type_observatory {
+        margin: 17px 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .video__duration_type_observatory {
+        margin: 17px 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .video__duration {
+        margin-left: 6.4%;
+    }
+}

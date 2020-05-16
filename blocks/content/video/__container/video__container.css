@@ -1,0 +1,24 @@
+.video__container {
+    margin: 72px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1184px) {
+    .video__container {
+        width: 92.5vw;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .video__container {
+        flex-direction: column;
+        align-items: center; 
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .video__container {
+        margin: 24px 0 0;
+    }
+}

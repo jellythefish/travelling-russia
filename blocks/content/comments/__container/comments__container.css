@@ -1,0 +1,18 @@
+.comments__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 72px 0 0;
+}
+
+@media screen and (max-width: 920px) {
+    .comments__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .comments__container {
+        margin: 40px 0 0;
+    }
+}

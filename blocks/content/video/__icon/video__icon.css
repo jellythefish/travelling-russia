@@ -1,0 +1,30 @@
+@import url(./_type/video__icon_type_play.css);
+
+.video__icon {
+    position: relative;
+    width: 41px;
+    height: 41px;
+    margin: 30px 0 0 30px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__icon {
+        margin: 6.4516% 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__icon {
+        margin: 6.4516% 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .video__icon {
+        margin: 6.4% 0 0 6.4%;
+    }
+}
+

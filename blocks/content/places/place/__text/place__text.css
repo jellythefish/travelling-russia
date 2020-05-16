@@ -1,0 +1,24 @@
+.place__text {
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .place__text {
+        width: 49.186%;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    .place__text {
+        min-width: 352px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__text {
+        min-width: 0;
+        width: calc(100vw - 32px);
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,12 @@
+.cover__link {
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*
+Нужно исправить:
+Замените height на min-height
+*/
+/*пофиксил*/

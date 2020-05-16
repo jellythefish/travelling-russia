@@ -1,0 +1,18 @@
+@import url(./lead/lead.css);
+@import url(./intro/intro.css);
+@import url(./photo-grid/photo-grid.css);
+@import url(./places/places.css);
+@import url(./content-title/content-title.css);
+@import url(./content-subtitle/content-subtitile.css);
+@import url(./video/video.css);
+@import url(./comments/comments.css);
+@import url(./cover/cover.css);
+
+
+.content {
+    width: 100%; 
+    max-width: 1184px;
+    margin: auto;
+    font-family: Inter, sans-serif;
+    color: #FFF;
+}

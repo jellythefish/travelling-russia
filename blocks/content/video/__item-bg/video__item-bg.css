@@ -1,0 +1,34 @@
+@import url(./_type/video__item-bg_type_kamchatka.css);
+@import url(./_type/video__item-bg_type_observatory.css);
+
+.video__item-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 1;
+}
+/*
+Нужно исправить:
+width: 100%;
+height: 100%;
+*/
+/*пофиксил*/
+
+/* @media screen and (max-width: 1184px) {
+    .places {
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width: 1128px) {
+    .places {
+        width: 928px;
+    }
+} */

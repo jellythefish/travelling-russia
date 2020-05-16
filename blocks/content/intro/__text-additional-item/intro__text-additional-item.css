@@ -1,0 +1,14 @@
+.intro__text-additional-item {
+    margin: 0;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+@media screen and (max-width: 425px) {
+    .intro__text-additional-item {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

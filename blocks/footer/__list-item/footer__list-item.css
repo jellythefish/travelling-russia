@@ -1,0 +1,22 @@
+.footer__list-item {
+    list-style-type: none;
+    display: inline;
+    margin-right: 18px;
+}
+
+.footer__list-item:last-of-type {
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__list-item {
+        margin: 32px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .footer__list-item:first-of-type {
+        margin: 0;
+    }
+}

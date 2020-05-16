@@ -1,0 +1,22 @@
+.cover__cover-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    /* max-width: 100vw; */
+    height: 100%;
+    background-image: url(../../../../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+
+/*
+Нужно исправить:
+width: 100%;
+height: 100%;
+*/
+/*пофиксил*/
+
